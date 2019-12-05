@@ -1,0 +1,30 @@
+{
+  "name": "vuepress-plugin-run",
+  "description": "vuepress 在线运行 Vue 单文件",
+  "private": false,
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "author": "zhangchaojie <1098626505@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vuepress dev docs",
+    "build": "vuepress build docs",
+    "debug": "node --inspect-brk=9229 ./node_modules/.bin/vuepress dev docs"
+  },
+  "dependencies": {
+    "markdown-it-container": "^2.0.0",
+    "vue-run-sfc": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.7.1",
+    "eslint-config-standard": "^14.1.0",
+    "eslint-config-vue": "^2.0.2",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "eslint-plugin-vue": "^6.0.1",
+    "vuepress": "^1.2.0"
+  }
+}
