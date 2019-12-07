@@ -151,7 +151,11 @@ b {
    * 当为 false 时, 默认是关闭编辑区
    * 当为 true 时, 默认是打开编辑区
    */
-  open: Boolean
+  open: Boolean,
+  /**
+   * 是否隐藏头部
+   */
+  isHideHeader: Boolean
 }
 ```
 
