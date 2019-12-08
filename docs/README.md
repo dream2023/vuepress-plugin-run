@@ -169,6 +169,13 @@ b {
    */
   css: [Array, String],
 
+  // 主题色
+  // 默认值为: #3eaf7c
+  themeColor: {
+    type: String,
+    default: '#3eaf7c'
+  },
+
   /**
    * 代码编辑器和效果预览排列方式
    * 当为 false 时, 上下排列

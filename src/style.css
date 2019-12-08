@@ -2,16 +2,3 @@
   margin: 32px 0;
   color: #2c3e50;
 }
-
-.vuepress-run .vue-run-sfc-header-button:focus,
-.vuepress-run .vue-run-sfc-header-button:hover {
-  color: #3eaf7c;
-}
-
-.vuepress-run .vue-run-sfc-control:hover {
-  color: #3eaf7c;
-}
-
-.vuepress-run .vue-run-sfc-control:hover .vue-run-sfc-control-icon {
-  border-top: 6px solid #3eaf7c;
-}
