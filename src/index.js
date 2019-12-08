@@ -22,7 +22,7 @@ module.exports = (options = {}) => {
             acc[key] = val
             return acc
           }, {})
-          const attrs = Object.assign({}, { themeColor: '#3eaf7c' }, options, customOptions)
+          const attrs = Object.assign({}, { themeColor: '#3eaf7c', themeBorderColor: '#eaecef' }, options, customOptions)
 
           let htmlStr = ''
           let lastLine = 0
