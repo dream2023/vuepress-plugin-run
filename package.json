@@ -2,7 +2,7 @@
   "name": "vuepress-plugin-run",
   "description": "vuepress 在线运行 Vue 单文件",
   "private": false,
-  "version": "0.0.4",
+  "version": "1.0.0",
   "main": "src/index.js",
   "author": "zhangchaojie <1098626505@qq.com>",
   "license": "MIT",
@@ -13,8 +13,23 @@
   },
   "dependencies": {
     "markdown-it-container": "^2.0.0",
-    "vue-run-sfc": "^1.1.2"
+    "vue-run-sfc": "^1.1.5"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dream2023/vuepress-plugin-run"
+  },
+  "homepage": "https://github.com/dream2023/vuepress-plugin-run/",
+  "keywords": [
+    "vuepress",
+    "vuepress-sfc",
+    "vuepress-demo",
+    "vuepress-run",
+    "vue run",
+    "vue editor",
+    "vuepress-plugin",
+    "vuepress-run-sfc"
+  ],
   "devDependencies": {
     "babel-eslint": "^10.0.3",
     "eslint": "^6.7.1",

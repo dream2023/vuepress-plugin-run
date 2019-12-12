@@ -15,13 +15,16 @@ module.exports = (options = {}) => {
             return '</vuepress-run>\n'
           }
 
-          const customOptions = (info.match(/\[(.+?)\]/g) || []).map(item => item.substr(1, item.length - 2).split('=')).reduce((acc, cur) => {
-            let [key, val = true] = cur
-            if (val === 'false') val = false
-            if (val === 'true') val = true
-            acc[key] = val
-            return acc
-          }, {})
+          let customOptions = info.match(/\{.*?\}/)
+          if (customOptions) {
+            try {
+              // eslint-disable-next-line no-new-func
+              customOptions = new Function(`return ${customOptions[0]}`)()
+            } catch {
+              customOptions = {}
+            }
+          }
+
           const attrs = Object.assign({}, { themeColor: '#3eaf7c', themeBorderColor: '#eaecef' }, options, customOptions)
 
           let htmlStr = ''
