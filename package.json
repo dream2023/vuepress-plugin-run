@@ -2,7 +2,7 @@
   "name": "vuepress-plugin-run",
   "description": "vuepress 在线运行 Vue 单文件",
   "private": false,
-  "version": "1.0.1",
+  "version": "1.0.2",
   "main": "src/index.js",
   "author": "zhangchaojie <1098626505@qq.com>",
   "license": "MIT",
@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "markdown-it-container": "^2.0.0",
-    "vue-run-sfc": "^1.1.7"
+    "vue-run-sfc": "^1.6.0"
   },
   "repository": {
     "type": "git",
